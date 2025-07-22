@@ -1,0 +1,77 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+.out/
+.cache/
+.next/
+coverage/
+*.tsbuildinfo
+
+# CDK / AWS artifacts
+cdk.out/
+cdk.context.json
+cdk.context.cache.json
+
+# CDK asset metadata
+*.asset.*
+cdk.out.json
+
+# Environment variables
+.env
+.env.*          # e.g. .env.development, .env.production
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sw?
+
+# Docker
+docker-compose.override.yml
+*.local.yml
+*.env.docker
+docker-data/
+docker-cache/
+*.pid
+*.sock
+
+# ECR image tags or output files
+*.tar
+*.img
+
+# Firebase/Google
+.firebaserc
+.firebase/
+
+# AWS credentials/config (just in case)
+.aws/
+
+# Local Terraform (if any)
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Jest / Testing
+jest-test-results.json
+coverage/
+
+# Misc
+tmp/
+temp/
+*.bak
+*.swp
+*.orig
