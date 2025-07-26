@@ -3,20 +3,18 @@ import time
 import random
 import logging
 import asyncio
+import schedule
 import pandas as pd
 from bs4 import BeautifulSoup
-from playwright.async_api import async_playwright, TimeoutError
-import schedule
 from src.core.storage.smanager import SManager
-from src.core.actions.mouse import human_like_mouse_move
 from src.core.actions.typing import human_like_typing
+from src.core.actions.mouse import human_like_mouse_move
+from playwright.async_api import async_playwright, TimeoutError
 
 s = SManager()
 
-
-
 MAX_CONCURRENT_TABS = 5
-QUEUE_EMPTY_TIMEOUT = 60  # seconds
+QUEUE_EMPTY_TIMEOUT = 10  # seconds
 POLL_INTERVAL = 2  # seconds between new task checks
 
 TARGET_URLS = [
@@ -54,9 +52,15 @@ async def handle_page(context, url_obj, active_tasks, max_retries=3):
                 await page.goto(url, timeout=10000, wait_until="domcontentloaded")
             else:
                 print(f"🔄 Task {task_id} [{attempt}/{max_retries}] Reloading tab: {url}")
-                await page.reload(timeout=10000, wait_until="domcontentloaded")
+                if page.is_closed():
+                    print(f"⚠️ Task {task_id} Page is closed, cannot reload.")
+                    break
+                print(f"🔄 Reloading page: {url}")
+                await page.goto("about:blank")
+                await asyncio.sleep(1)  # Give it a moment to clear
+                await page.goto(url)
 
-            await page.wait_for_load_state("networkidle")
+            # await page.wait_for_load_state("networkidle")
 
             print(f"✅ Task {task_id} Loaded: {url}")
             html = await page.content()
@@ -133,9 +137,15 @@ async def run_scraper():
 
         await task_manager(context, queue)
 
-        await context.storage_state(path="auth.json")
+        # await context.storage_state(path="auth.json")
+        await s.save_clean_storage_state(context, path=s.SESSION_FILE)
         await browser.close()
 
 if __name__ == "__main__":
-    asyncio.run(run_scraper())
+    try:
+        asyncio.run(run_scraper())
+    except Exception as e:
+        print(f"Error: {e}")
+    finally:
+        print("Exiting")
 
