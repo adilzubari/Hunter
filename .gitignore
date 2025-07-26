@@ -13,6 +13,17 @@ build/
 coverage/
 *.tsbuildinfo
 
+# Python virtual environment
+venv/
+.env/
+*.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+data/
+
 # CDK / AWS artifacts
 cdk.out/
 cdk.context.json
