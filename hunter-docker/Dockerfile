@@ -1,24 +1,22 @@
-# hunter-docker/Dockerfile
-
-FROM node:18-slim
-
-# Puppeteer dependencies
-RUN apt-get update && apt-get install -y \
-  wget ca-certificates fonts-liberation libappindicator3-1 libasound2 libatk-bridge2.0-0 \
-  libatk1.0-0 libcups2 libdbus-1-3 libgdk-pixbuf2.0-0 libnspr4 libnss3 \
-  libx11-xcb1 libxcomposite1 libxdamage1 libxrandr2 xdg-utils libu2f-udev \
-  libvulkan1 unzip && apt-get clean && rm -rf /var/lib/apt/lists/*
+FROM mcr.microsoft.com/playwright/python:v1.54.0-jammy
 
 WORKDIR /app
 
-# Copy only package files first for layer caching
-COPY package*.json ./
+COPY . .
 
-RUN npm install
+RUN apt-get update && apt-get install -y xvfb && \
+    pip install --no-cache-dir -r requirements.txt
 
-# Then copy the rest
-COPY tsconfig.json .
-COPY entrypoint.ts .
-RUN npx tsc
-CMD ["node", "entrypoint.js"]
+# Set environment variable for display
+ENV DISPLAY=:99
+
+# Start Xvfb manually and run script with unbuffered output
+CMD bash -c "Xvfb :99 -screen 0 1024x768x24 & python -u index.py"
+
+
+
+# Ensure we use xvfb-run to create a fake display
+# CMD ["xvfb-run", "python", "index.py"]
+# CMD ["xvfb-run", "-a", "-e", "/dev/stdout", "python", "-u", "index.py"]
+# CMD ["python", "index.py"]
 

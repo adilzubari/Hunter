@@ -1,0 +1,7 @@
+beautifulsoup4
+pandas
+schedule
+playwright
+aiofiles
+browser_session
+run_google_workflow
