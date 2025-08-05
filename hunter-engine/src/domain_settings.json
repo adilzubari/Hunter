@@ -1,0 +1,21 @@
+{
+  "www.google.com": {
+    "script": "google_script",
+    "persist": true
+  },
+  "www.linkedin.com": {
+    "script": "linkedin_script",
+    "persist": true
+  },
+  "default": {
+    "script": "default_script",
+    "persist": false
+  },
+  "persisted_pages": [
+    {
+      "url": "https://www.google.com",
+      "domain": "www.google.com",
+      "timestamp": 1754320546.7785625
+    }
+  ]
+}

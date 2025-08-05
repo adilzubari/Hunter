@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-docker": "docker build -t playwright-scraper:1 .",
+    "run-docker": "docker run --rm -it -e DISPLAY=:99 --shm-size=2gb playwright-scraper:1",
+    "build-and-run": "npm run build-docker && npm run run-docker",
+    "open-docker-bash": "docker run -it playwright-scraper:1 bash",
+    "ecr:login": "aws ecr get-login-password --region eu-west-3 --profile my-cdk-profile | docker login --username AWS --password-stdin 472015765522.dkr.ecr.eu-west-3.amazonaws.com",
+    "ecr:tag:image": "docker tag playwright-scraper:1 472015765522.dkr.ecr.eu-west-3.amazonaws.com/cdk-hnb659fds-container-assets-472015765522-eu-west-3:1",
+    "ecr:push:image": "docker push 472015765522.dkr.ecr.eu-west-3.amazonaws.com/cdk-hnb659fds-container-assets-472015765522-eu-west-3:1",
+    "ecr:build:push": "npm run ecr:login && npm run ecr:tag:image && npm run ecr:push:image"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
