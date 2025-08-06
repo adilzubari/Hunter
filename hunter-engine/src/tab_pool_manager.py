@@ -25,42 +25,36 @@ class TabPoolManager:
         return self.domain_settings["default"]["script"], self.domain_settings["default"]["persist"]
 
     def process_request(self, obj):
-        import inspect
+        # Use orchestrator middleware for standardized script execution and URL selection
+        from src.core import orchestrator
+        import importlib
         domain = self._get_domain(obj['url'])
         if domain not in self.tabs:
             self.tabs[domain] = self.context.new_page()
         page = self.tabs[domain]
-        script_name, persist = self.get_script_and_persist(domain)
-        script_path = os.path.join(os.path.dirname(__file__), "domain_scripts", f"{script_name}.py")
-        script_func = None
-        if os.path.exists(script_path):
-            spec = importlib.util.spec_from_file_location(script_name, script_path)
-            module = importlib.util.module_from_spec(spec)
-            spec.loader.exec_module(module)
-            script_func = getattr(module, script_name, None)
-            if script_func:
-                sig = inspect.signature(script_func)
-                if len(sig.parameters) != 5:
-                    print(f"Error: Script function '{script_name}' in {script_path} must accept exactly 5 parameters (page, HumanActions, time, sys, request).", file=sys.stdout, flush=True)
-                    script_func = None
-        else:
-            print(f"Script {script_name} not found for domain {domain}", file=sys.stdout, flush=True)
+        # Dynamically load all available domain scripts
+        script_funcs = {}
+        scripts_dir = os.path.join(os.path.dirname(__file__), "domain_scripts")
+        for fname in os.listdir(scripts_dir):
+            if fname.endswith("_script.py"):
+                script_name = fname[:-3]
+                script_path = os.path.join(scripts_dir, fname)
+                spec = importlib.util.spec_from_file_location(script_name, script_path)
+                module = importlib.util.module_from_spec(spec)
+                spec.loader.exec_module(module)
+                func = getattr(module, script_name, None)
+                if func:
+                    script_funcs[script_name] = func
         try:
-            TARGET_URL = obj['url']
-            print(f"Visiting {TARGET_URL}", file=sys.stdout, flush=True)
-            page.goto(TARGET_URL, timeout=10000, wait_until="domcontentloaded")
-            page.wait_for_load_state("networkidle")
-            # Wait for captcha, login, or modal/alert to be resolved before continuing
-            wait_for_human_resolution(page)
-            if script_func:
-                script_func(page, HumanActions, time, sys, obj)
+            orchestrator.orchestrate(page, HumanActions, time, sys, obj, script_funcs)
+            # Optionally persist page info
+            script_name, persist = self.get_script_and_persist(domain)
             if persist:
                 self.persisted_pages.append({
-                    "url": TARGET_URL,
+                    "url": obj['url'],
                     "domain": domain,
                     "timestamp": time.time()
                 })
-            html = page.content()
         except TimeoutError:
             print(f"Timeout while trying to reach {obj['url']}.", file=sys.stdout, flush=True)
         except Exception as e:

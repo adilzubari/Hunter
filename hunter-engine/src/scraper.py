@@ -38,9 +38,7 @@ class Scraper:
                 def all_queues_empty():
                     # Check if global queue is empty (all processed)
                     global_empty = all(id(obj) in processed for obj in Config.GLOBAL_QUEUE)
-                    # Check if all sub-queues (tabs) are empty (no pending work per tab)
-                    # In this design, sub-queues are implicit: if a tab exists, it is only used for new requests
-                    # So if global queue is empty and no new requests, all sub-queues are empty
+                    # No change needed for search_type, just ensure all tasks are processed
                     return global_empty
 
                 # Wait until all queues are empty before starting shutdown timer
@@ -51,6 +49,7 @@ class Scraper:
                     # Process any new requests that came in
                     new_requests = [obj for obj in Config.GLOBAL_QUEUE if id(obj) not in processed]
                     for obj in new_requests:
+                        # Now each obj may have 'search_type' for section-specific logic
                         tab_manager.process_request(obj)
                         processed.add(id(obj))
                     if new_requests and persisted_pages:
@@ -73,6 +72,7 @@ class Scraper:
                         new_requests = [obj for obj in Config.GLOBAL_QUEUE if id(obj) not in processed]
                         if new_requests:
                             for obj in new_requests:
+                                # Now each obj may have 'search_type' for section-specific logic
                                 tab_manager.process_request(obj)
                                 processed.add(id(obj))
                             if persisted_pages:

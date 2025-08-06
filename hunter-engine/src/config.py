@@ -8,12 +8,63 @@ class Config:
     #   num_pages: int (optional, for paginated results)
     #   ...add more fields as needed per domain
     GLOBAL_QUEUE = [
+        # 1. Google web search (control)
         {
             "url": "https://www.google.com",
-            "search_query": "Indian news",
-            "num_pages": 1
+            "search_type": "web",
+            "search_params": {
+                "query": "Indian news",
+                "num_pages": 1
+            }
         },
-        # Add more task objects as needed
+        # 2. LinkedIn jobs, remote, posted in last 24 hours
+        {
+            "url": "https://www.linkedin.com",
+            "search_type": "jobs",
+            "search_params": {
+                "query": "Engineer",
+                "location": "United Arab Emirates",
+                "workplace_type": "hybrid",
+                "time_posted": "past_24_hours",
+                "num_pages": 1
+            }
+        },
+        # 3. LinkedIn jobs, onsite, posted in last week
+        {
+            "url": "https://www.linkedin.com",
+            "search_type": "jobs",
+            "search_params": {
+                "query": "Developer",
+                "location": "United Arab Emirates",
+                "workplace_type": "hybrid",
+                "time_posted": "past_24_hours",
+                "num_pages": 1
+            }
+        },
+        # 4. LinkedIn jobs, hybrid, posted in last month
+        {
+            "url": "https://www.linkedin.com",
+            "search_type": "jobs",
+            "search_params": {
+                "query": "Fullstack",
+                "location": "United Arab Emirates",
+                "workplace_type": "hybrid",
+                "time_posted": "past_24_hours",
+                "num_pages": 1
+            }
+        },
+        # 5. LinkedIn jobs, remote, posted in last week, different location
+        {
+            "url": "https://www.linkedin.com",
+            "search_type": "jobs",
+            "search_params": {
+                "query": "Backend",
+                "location": "United Arab Emirates",
+                "workplace_type": "hybrid",
+                "time_posted": "past_24_hours",
+                "num_pages": 1
+            }
+        },
     ]
     OUTPUT_FILE = "daily_aapl_news.csv"
     MAX_ITEMS = 20
