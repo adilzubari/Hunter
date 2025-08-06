@@ -1,0 +1,384 @@
+Title: Software Engineer (Java) - Relocation to Poland, Spain, or UAE
+Description: About Revolut
+
+People deserve more from their money. More visibility, more control, and more freedom. Since 2015, Revolut has been on a mission to deliver just that. Our powerhouse of products — including spending, saving, investing, exchanging, travelling, and more — help our 60+ million customers get more from their money every day.
+
+As we continue our lightning-fast growth,‌ 2 things are essential to our success: our people and our culture. In recognition of our outstanding employee experience, we've been certified as a Great Place to Work™. So far, we have 10,000+ people working around the world, from our offices and remotely, to help us achieve our mission. And we're looking for more brilliant people. People who love building great products, redefining success, and turning the complexity of a chaotic world into the simplicity of a beautiful solution.
+
+About The Role
+
+This role offers the opportunity to relocate to Poland, Spain, or the UAE. You'll receive support from Revolut throughout the entire process. Once you move, you'll have the flexibility to work remotely or in a hybrid model from an office in Krakow, Barcelona, Madrid, or Dubai.
+
+Our Technology team isn’t just one of the best in the industry. It’s one of the best in the world. And we’re proud of it. It’s our driving force, our engine. From building a new financial backend to creating an innovative app and features that millions of people around the world will use, there’s nothing our Tech team can’t do.
+
+We’re looking for a Backend Engineer who wants to change the world. If you want your work to change the global financial landscape, you might be just who we’re looking for.
+
+We have a minimalist approach to using external frameworks, with an emphasis on maintainability and fast turnaround with TDD, DDD and Continuous Integration & Delivery.
+
+Our technology stack:
+
+
+Java 17/21
+GCP, Kubernetes, Grafana, Prometheus, NewRelic
+PostgreSQL, Redis
+Spock, SparkJava
+JOOQ, Flyway
+
+
+If you’re up for the challenge of shaping the future of finance, let’s get in touch.
+
+What You’ll Be Doing
+
+
+Building mobile APIs
+Developing microservices to evolve our architecture
+Perfecting systems that our business depends on, like risk management, fraud detection, and payment processing
+Focusing on greenfield development and improvement of existing systems
+
+
+What You'll Need
+
+
+Fluency with Java
+6+ years of experience in backend development
+A bachelor's degree in computer science, maths, physics, or similar field
+To be a quick learner with an ambitious attitude and results-driven personality
+The ability to work well as part of a team in a fast-paced environment
+Excellent communication and organisational skills
+Fluency in English
+
+
+Nice to have
+
+
+Familiarity with Kotlin or Scala
+A background in financial services or fintech
+Experience in a startup or scale-up
+Involvement in product-centric development environments
+
+
+Building a global financial super app isn’t enough. Our Revoluters are a priority, and that’s why in 2021 we launched our inaugural D&I Framework, designed to help us thrive and grow everyday. We're not just doing this because it's the right thing to do. We’re doing it because we know that seeking out diverse talent and creating an inclusive workplace is the way to create exceptional, innovative products and services for our customers. That’s why we encourage applications from people with diverse backgrounds and experiences to join this multicultural, hard-working team.
+
+Important notice for candidates:
+
+Job scams are on the rise. Please keep these guidelines in mind when applying for any open roles.
+
+
+Only apply through official Revolut channels. We don’t use any third-party services or platforms for our recruitment.
+Always double-check the emails you receive. Make sure all communications are being done through official Revolut emails, with an @revolut.com domain.
+
+
+We won't ask for payment or personal financial information during the hiring process. If anyone does ask you for this, it’s a scam. Report it immediately.
+
+By submitting this application, I confirm that all the information given by me in this application for employment and any additional documents attached hereto are true to the best of my knowledge and that I have not wilfully suppressed any material fact. I confirm I have disclosed if applicable any previous employment with Revolut. I accept that if any of the information given by me in this application is in any way false or incorrect, my application may be rejected, any offer of employment may be withdrawn or my employment with Revolut may be terminated summarily or I may be dismissed. By submitting this application, I agree that my personal data will be processed in accordance with Revolut's <a class="postings-link" href="https://www.revolut.com/legal/data-privacy-for-candidates">Candidate Privacy Notice
+
+
+Show more
+---
+Title: Software Engineer (Java) - Credit
+Description: About Revolut
+
+People deserve more from their money. More visibility, more control, and more freedom. Since 2015, Revolut has been on a mission to deliver just that. Our powerhouse of products — including spending, saving, investing, exchanging, travelling, and more — help our 60+ million customers get more from their money every day.
+
+As we continue our lightning-fast growth,‌ 2 things are essential to our success: our people and our culture. In recognition of our outstanding employee experience, we've been certified as a Great Place to Work™. So far, we have 10,000+ people working around the world, from our offices and remotely, to help us achieve our mission. And we're looking for more brilliant people. People who love building great products, redefining success, and turning the complexity of a chaotic world into the simplicity of a beautiful solution.
+
+About The Role
+
+Our Technology team isn’t just one of the best in the industry. It's one of the best in the world, and we’re proud of it. It’s our driving force — our engine.
+
+From building a new financial backend to creating an innovative app, there’s nothing they can’t do. Our Technology team isn’t here to fix legacy systems — it’s here to build world-class financial features from the ground up that'll be used by millions of people around the world 🌎
+
+We’re looking for a Backend Engineer who wants to change the world. If you like to work at a steady pace with no surprises, keep scrolling. If you want your work to change the global financial landscape, you might be just who we’re looking for. We have a minimalist approach to using external frameworks, with an emphasis on maintainability and fast turnaround with TDD, DDD, and Continuous Integration & Delivery.
+
+Our technology stack:
+
+
+Java 17/21
+GCP, Kubernetes, Grafana, Prometheus, NewRelic
+PostgreSQL, Redis
+Spock, SparkJava
+JOOQ, Flyway
+
+
+What You’ll Be Doing
+
+
+Building mobile APIs
+Developing microservices to evolve our architecture
+Perfecting systems that our business depends on, like risk management, fraud detection, and payment processing
+Focusing on greenfield development and improvement of existing systems
+
+
+What You'll Need
+
+
+Fluency with Java
+6+ years of experience in backend development
+A bachelor's degree (or above) in computer science, maths, physics, or similar field
+To be a quick learner with an ambitious attitude and results-driven personality
+The ability to work well as part of a team in a fast-paced environment
+Excellent communication and organisational skills
+Fluency in English
+
+
+Nice to have
+
+
+Experience with Kotlin or Scala
+Experience in finance
+Experience in a start-up or scale-up
+Experience in a product-focused environment
+
+
+Building a global financial super app isn’t enough. Our Revoluters are a priority, and that’s why in 2021 we launched our inaugural D&I Framework, designed to help us thrive and grow everyday. We're not just doing this because it's the right thing to do. We’re doing it because we know that seeking out diverse talent and creating an inclusive workplace is the way to create exceptional, innovative products and services for our customers. That’s why we encourage applications from people with diverse backgrounds and experiences to join this multicultural, hard-working team.
+
+Important notice for candidates:
+
+Job scams are on the rise. Please keep these guidelines in mind when applying for any open roles.
+
+
+Only apply through official Revolut channels. We don’t use any third-party services or platforms for our recruitment.
+Always double-check the emails you receive. Make sure all communications are being done through official Revolut emails, with an @revolut.com domain.
+
+
+We won't ask for payment or personal financial information during the hiring process. If anyone does ask you for this, it’s a scam. Report it immediately.
+
+By submitting this application, I confirm that all the information given by me in this application for employment and any additional documents attached hereto are true to the best of my knowledge and that I have not wilfully suppressed any material fact. I confirm I have disclosed if applicable any previous employment with Revolut. I accept that if any of the information given by me in this application is in any way false or incorrect, my application may be rejected, any offer of employment may be withdrawn or my employment with Revolut may be terminated summarily or I may be dismissed. By submitting this application, I agree that my personal data will be processed in accordance with Revolut's <a class="postings-link" href="https://www.revolut.com/legal/data-privacy-for-candidates">Candidate Privacy Notice
+
+
+Show more
+---
+Title: Application Engineer, Saudi Arabia
+Description: Join our passionate and dedicated teams who are shaping the future of sound!
+
+The Application team provides operational support to our network of clients and end-users to guarantee their projects’ success at every stage through a premium customer experience. They provide sound system design support to venues, system engineers, audio consultants, and architects using our proprietary software: Soundvision. The Application Project team also provides on-site support to system and mixing engineers during festivals, tours, special events, musicals, and more.
+
+The Application Engineer, Saudi Arabia reinforces all project activities through their established technical expertise and experience in the fixed installation and touring sound field. Using comprehensive knowledge of our products and their applications, the Application Engineer provides a vital technical support link between our project managers, our sales department and our customers alike.
+
+
+Brand representation within the field of fixed Installation and Touring in the Saudi Arabian Market
+Maintain and develop relationships with key Saudi Arabian consultants and engineers.
+Market development through outstanding technical expertise for consultants, integrators, venue owners and end users.
+Provide Sound system theory, practice, safe operation training development and administration.
+Provide Sound system design, specification and documentation for Install and Touring applications
+Sound system commissioning, measurement and verification.
+Realize on-site acoustical and mechanical verification/measurement.
+Conduct training and product demonstration.
+Elaborate and conduct technical presentations.
+Support for Products, applications, safe operation and software
+Provide written technical mission reports
+
+
+Skills & Experience
+
+The Application Engineer must develop professional relationships with consultants, contractors and engineers and draw upon this experience in order to direct the appropriate advice and support. He possesses expert knowledge of sound design modeling and measurement procedures.
+
+
+Minimum 8 years of work experience in Pro Audio industry.
+In-depth knowledge of the Saudi Arabian Installation and Touring Pro Audio market.
+Bachelor/Master/Engineering Degree preferred
+Experienced in modeling (EASE) and common measurement tools (SMAART) preferred
+Practical PA system design and operation for touring and/or corporate touring market
+Experienced in AUTOCAD preferred
+Good verbal and written communication skills
+
+
+Join our passionate and dedicated teams who are shaping the future of sound!
+Show more
+---
+Title: Senior Fullstack Engineer
+Description: Department: Risk Platform, Engineering
+
+Location: Remote
+
+
+
+Description
+
+
+Remote | Full-time | B2B Contract
+
+Tabby creates financial freedom by reshaping the way people shop, earn, and save, thereby transforming their relationship with money. Over 15 million users choose Tabby to stay in control of their spending and make the most out of their money.
+
+The company’s flagship offering allows shoppers to split their payments online and in-store with no interest or fees. Over 40,000 global brands and small businesses, including Amazon, Noon, IKEA, and SHEIN, use Tabby to accelerate growth and gain loyal customers by offering easy and flexible payments online and in stores.
+
+Tabby generates over $10 billion in annual transaction volume for its partner brands and is the highest-rated, most-reviewed, largest, and fastest-growing FinTech in the GCC region.
+
+Tabby launched in 2019 and has since raised +$1 billion in equity and debt funding from global and regional investors, and is now valued at $3.3 billion.
+
+We’re looking for a Senior FullStack Engineer to help scale the systems behind Tabby’s core products. You’ll work on high-impact projects in a high-growth environment, alongside a world-class remote engineering team spread across 20+ countries.
+
+What you’ll bring
+
+
+Strong Backend coding ability (ideally with Golang); however, we are open to any language as long as you are open to learn Golang.
+5+ years as a Backend or Fullstack Engineer at a fast-growing product company
+2+ years of experience with ideally both Golang and TypeScript with React
+Solid experience with SQL DBs
+Profound experience with partner APIs integration and product development
+A passion for writing clean and testable code
+Fluent English level (B2+)
+And, of course, you should be proactive, enthusiastic, and independent.
+
+
+
+Some of the technologies you'll get to work with
+
+
+Golang;
+PostgreSQL;
+Typescript and React;
+Redis;
+Kubernetes;
+Google Cloud Platform;
+Gitlab.
+Pub/Sub
+
+
+
+What we offer
+
+
+Full-time B2B contract
+Fully remote setup, work from anywhere in Europe
+Up to 20% tax allowance
+22 paid leave days annually
+Stock options (ESOP) in a fast-scaling, pre-IPO company
+Flexi benefits you can use for wellness, travel, or learning
+Work alongside a high-performing, international engineering team in a global fintech unicorn
+
+
+Relocation support is available to our hubs in Armenia, Georgia, Serbia, Portugal, and Spain, including flights, temporary accommodation, and legal setup, for up to $5,000 in verified costs.
+
+
+
+Show more
+---
+Title: Senior QA Automation Engineer
+Description: Department: Risk Platform, Engineering
+
+Location: Remote
+
+
+
+Description
+
+Tabby creates financial freedom in the way people shop, earn and save by reshaping their relationship with money. Over 5,000,000 active users choose Tabby to stay in control of their spending and make the most out of their money.
+
+Over 30,000 global brands and small businesses, including H&M, Adidas, IKEA, SHEIN, noon, and Bloomingdale’s, use Tabby’s technology to accelerate growth and gain loyal customers by offering flexible payments online and in stores.
+
+Tabby is active in Saudi Arabia, UAE, Egypt and Kuwait and backed by leading investors, including Sequoia Capital India, STV, PayPal Ventures, Mubadala Investment Capital, Arbor Ventures and others.
+
+We are seeking a skilled QA Automation Engineer to join our Scoring team, focusing on both automation and manual testing within a microservices environment. In this role you'll be an integral part of our backend development team, ensuring that our product meets the highest standards of quality.
+
+Key Responsibilities
+
+
+Balance efforts between automated and manual testing, ensuring thorough coverage of our microservices and API interactions;
+Lead and execute integration tests, particularly where our services interact with other teams' systems, to identify and resolve issues at the intersection of these interactions;
+Focus on API testing to ensure our services communicate effectively and meet all performance and reliability requirements.
+Contribute to the creation and maintenance of test documentation, helping to establish standardized testing processes and raise the overall competency level within the QA team.
+
+
+Skills, Knowledge & Expertise
+
+
+3+ years of experience as manual QA and at least 2 year of experience as Automation QA;
+Good knowledge of testing and development processes;
+Solid understanding and hands-on experience with testing in a microservices architecture;
+Proficiency in automation tools, with a focus on testing integration points and APIs. Experience with Golang or similar languages is a plus;
+Strong analytical skills to identify issues in complex integration scenarios and proactively develop solutions;
+A detail-oriented mindset with a commitment to delivering high-quality products through rigorous testing practices.
+
+
+Job Benefits
+
+Relocation
+
+We offer remote work from anywhere in the world and are happy to work out an individual relocation plan for you.
+
+Our employees have the opportunity to choose a country for registration: at the moment those are Armenia/Georgia/Serbia/Portugal/Spain.
+
+We will help you open a legal entity and a bank account. In Armenia and Georgia the taxes are compensated by Tabby. In other countries we provide partial compensation of taxes.
+
+We employ according to B2B contracts (service agreements).
+
+For our employees we cover the following:
+Flight to one of the mentioned countries.
+Accommodation during the paperwork completion period.
+Opening a bank account and getting a residence permit in one of the mentioned countries.
+Family relocation (dependants).
+New employees can also choose an alternative method of relocation to another country of their choice. In this case, Tabby will reimburse up to $5,000 of verified costs upon opening a legal entity and a bank account.
+What you can expect
+We offer flexible working hours and trust you to work enough hours to do your job well, at times that suit you and your team.
+A working environment that gives you autonomy and responsibility from day one.
+You should be comfortable with the idea that the quality of your work will influence the shape of your career.
+Participation in company’s employee stock options program.
+Health Insurance
+We are passionate about creating an inclusive, high-performing workplace that gives people from all backgrounds the support they need to thrive, grow and meet their goals (whatever they may be).
+
+If this sounds exciting to you, we’d love to hear from you!
+Show more
+---
+Title: Artificial Intelligence Engineer
+Description: An AI Engineer is required to contribute to the development of an intelligence platform that combines structured and unstructured data for investment network insights. The role involves implementing a LightRAG system to extract and link insights from unstructured notes and documents into a Neo4j-powered knowledge graph. The engineer will ensure that the system provides users with a comprehensive, contextual view of relationships between people, companies, and deals, enhancing the platform’s decision-making capabilities.
+
+
+
+
+Requirements
+
+Proven experience with AI/ML techniques for natural language processing and information extraction.
+Familiarity with RAG (Retrieval-Augmented Generation) or similar knowledge-enhancement frameworks.
+Proficiency with Neo4j or other graph database technologies.
+Strong skills in integrating structured and unstructured data for insight generation.
+Ability to work remotely and deliver results for a single project with potential for follow-up work.
+Attention to detail and capacity to translate complex data relationships into actionable insights.
+
+
+
+
+About Twine
+
+Twine is a leading marketplace connecting top freelancers, consultants, and contractors with companies needing creative and tech expertise.
+
+
+
+
+Our Mission
+
+Twine's mission is to empower creators and businesses to thrive in an AI-driven, freelance-first world.
+
+Show more
+---
+Title: Artificial Intelligence Engineer
+Description: An AI Engineer is required to contribute to the development of an intelligence platform that combines structured and unstructured data for investment network insights. The role involves implementing a LightRAG system to extract and link insights from unstructured notes and documents into a Neo4j-powered knowledge graph. The engineer will ensure that the system provides users with a comprehensive, contextual view of relationships between people, companies, and deals, enhancing the platform’s decision-making capabilities.RequirementsProven experience with AI/ML techniques for natural language processing and information extraction.Familiarity with RAG (Retrieval-Augmented Generation) or similar knowledge-enhancement frameworks.Proficiency with Neo4j or other graph database technologies.Strong skills in integrating structured and unstructured data for insight generation.Ability to work remotely and deliver results for a single project with potential for follow-up work.Attention to detail and capacity to translate complex data relationships into actionable insights.About TwineTwine is a leading marketplace connecting top freelancers, consultants, and contractors with companies needing creative and tech expertise.Our MissionTwine's mission is to empower creators and businesses to thrive in an AI-driven, freelance-first world.
+        
+
+        
+
+    
+    
+    
+
+    
+
+        
+            Show more
+          
+
+          
+    
+  
+
+        
+
+    
+    
+    
+
+    
+
+        
+            Show less
+---
