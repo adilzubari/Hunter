@@ -1,3 +1,7 @@
+# Browser session / auth state (contains LinkedIn & Google session cookies — never commit)
+auth.json
+**/auth.json
+
 # Node.js dependencies
 node_modules/
 npm-debug.log*
